@@ -1,12 +1,6 @@
-/**
- * GLOBAL STATE
- */
 let currentViewMode = 'tech'; 
 let cachedData = null;
 
-/**
- * TAB SYSTEM
- */
 function openTab(evt, tabName) {
     const tabContent = document.querySelectorAll(".tab-content");
     tabContent.forEach(tab => tab.classList.remove("active"));
@@ -22,9 +16,6 @@ function openTab(evt, tabName) {
     }
 }
 
-/**
- * LIVE STATUS BAR
- */
 function updateClock() {
     const now = new Date();
     const timeElement = document.getElementById('status-time');
@@ -33,9 +24,6 @@ function updateClock() {
     }
 }
 
-/**
- * PERSPECTIVE TOGGLE (TECH VS BIZ)
- */
 function setViewMode(mode) {
     currentViewMode = mode;
     
@@ -50,9 +38,6 @@ function setViewMode(mode) {
     }
 }
 
-/**
- * EXPERIENCE RENDERER
- */
 function renderExperience() {
     const log = document.getElementById('experience-log');
     if (!cachedData || !log) return;
@@ -86,9 +71,6 @@ function renderExperience() {
     `;
 }
 
-/**
- * TERMINAL SYSTEM
- */
 function initTerminal() {
     const input = document.getElementById('terminal-input');
     const history = document.getElementById('terminal-history');
@@ -131,9 +113,6 @@ function initTerminal() {
     });
 }
 
-/**
- * MAIN LOADER
- */
 async function loadPortfolio() {
     try {
         const response = await fetch('portfolio.json');
@@ -154,7 +133,7 @@ async function loadPortfolio() {
             </a>
         `).join('');
 
-        // 3. About: Current Focus (Business Perspective)
+        // 3. About: Current Focus
         const current = cachedData.work_experience[0];
         document.getElementById('current-focus').innerHTML = `
             <h2>// CURRENT_FOCUS</h2>

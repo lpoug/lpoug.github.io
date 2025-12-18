@@ -1,224 +1,97 @@
 {
-  "name": "Your Name",
-  "label": "Optional Label",
-  "image_path": "img/default-image.png",
+  "name": "Léonard Pouget",
+  "label": "Full Stack Data Scientist",
+  "image_path": "img/lpo.png",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "",
+    "location": "Paris, France",
+    "linkedin": "https://www.linkedin.com/in/l%C3%A9onard-pouget-825259108/"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
-  "base_url": "127.0.0.1:5500",
+  "summary": "Full-stack Data Scientist and Team Lead specializing in end-to-end project deployment within the marketing domain. From SQL preprocessing to Metaflow orchestration on AWS, I build robust systems that transform customer behavioral data into strategic clarity for executive leadership.",
   "social_links": [
-    {
-      "label": "Personal Website",
-      "url": "https://sample.com",
-      "svg_path": "img/globe.svg"
-    },
-    {
-      "label": "First Social",
-      "url": "https://sample.com",
-      "svg_path": "img/linkedin.svg"
-    },
-    {
-      "label": "Second Social",
-      "url": "https://sample.com",
-      "svg_path": "img/github.svg"
-    }
+    { "label": "Github", "url": "https://github.com/lpoug", "icon": "github" },
+    { "label": "Linkedin", "url": "https://www.linkedin.com/in/l%C3%A9onard-pouget-825259108/", "icon": "linkedin" },
+    { "label": "My Website", "url": "https://lpoug.github.io/", "icon": "globe" },
+    { "label": "Something Different", "url": "https://thegreatnorthernmost.wordpress.com/", "icon": "aperture"}
   ],
   "work_experience": [
     {
-      "company": "Latest Job",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
+      "company": "Sézane",
+      "position": "Lead Data Scientist",
+      "start_date": "2021",
       "end_date": "Present",
-      "summary": "Short summary about present job and what the position entails",
-      "highlights": [
-        "First Duty of Current Job",
-        "Second Duty of Current Job",
-        "Third Duty of Current Job"
-      ]
+      "highlights_tech": [
+        "Proficiency in SQL (Redshift) on a day-to-day basis for analytics purposes.",
+        "Creation of data tools in Python focus on Marketing Science and Customer Knowledge.",
+        "Development of ambitious Data Science initiatives from initial business problematics to model industrialization using Metaflow.",
+        "Some libraries I have worked with: causalpy, pymc-marketing, google-meridian, librecommender, tensorflow-recommenders",
+        "Established the technical and structural norms for the Data Science team: git, implementation of coding best practices, linting, formatting, code review.",
+        "Upskilled on cloud environment (AWS) principles and tools: Docker, ECS, Step Functions, S3, etc."
+      ],
+      "highlights_biz": [
+        "Lead the Data Science & Analytics team.",
+        "Lead the development of Data Science initiatives oriented around Marketing Science: Incrementality testing, Multi-touch Attribution, Marketing Mix Modeling, Synthetic Controls.",
+        "Participated in the construction of the 360° view of our customer knowledge.",
+        "Managed a team of 2 Data Scientists.",
+        "Initiated the development of the DS platform."
+      ],
+      "tech_stack": ["Python", "SQL", "Git", "AWS", "Metaflow", "Metabase"]
     },
     {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
-      "highlights": [
-        "First Duty of Previous Job",
-        "Second Duty of Previous Job",
-        "Third Duty of Previous Job"
-      ]
+      "company": "Avisia",
+      "position": "Data Scientist",
+      "start_date": "2018",
+      "end_date": "2021",
+      "highlights_tech": [
+        "Developed a speciality in Dataiku. Organized training sessions internally as well as for different clients.",
+        "Adapted my professional skills to match the client's environment: Pyspark for data processing, Dataiku for modelisation, R (Shiny) for visualisation."
+      ],
+      "highlights_biz": [
+        "Worked in the following industries: Retail, Cosmetic, Luxury Goods",
+        "Data Scientist consultant in a variety of topics and analyses.",
+        "Scoring model along the customer life cycle: Churn prediction, repurchase propensity, reactivation score.",
+        "Development of both static and interactive reports (R Shiny).",
+        "Ad hoc studies on omnicanality, customer behavior, commercial pressure optimization."
+      ],
+      "tech_stack": ["Python", "R", "SQL", "Dataiku", "Hive", "Spark"]
     }
   ],
   "projects": [
     {
-      "title": "My First Project",
-      "summary": "Short summary about my first project",
-      "url": "https://sample.com",
-      "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "Image Caption 1"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=2",
-          "caption": "Image Caption 2"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Image Caption 3"
-        }
-      ]
-    },
-    {
-      "title": "My Second Project",
-      "summary": "Short summary about my second project",
-      "url": "https://sample.com",
-      "highlights": [
-        "First Highlight of Project Two",
-        "Second Highlight of Project Two",
-        "Third Highlight of Project Two"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=4",
-          "caption": "Image Caption 4"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "Image Caption 6"
-        }
-      ]
-    }
-  ],
-  "volunteer_experience": [
-    {
-      "organization": "Latest Organization",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
-      "end_date": "Present",
-      "summary": "Short summary about present volunteer work",
-      "highlights": [
-        "First Duty of Current Organization",
-        "Second Duty of Current Organization",
-        "Third Duty of Current Organization"
-      ]
-    },
-    {
-      "organization": "Previous Organization",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous volunteer work",
-      "highlights": [
-        "First Duty of Previous Organization",
-        "Second Duty of Previous Organization",
-        "Third Duty of Previous Organization"
-      ]
+      "title": "Neural Style Transfer API",
+      "summary": "A deep learning project deployed via FastAPI.",
+      "url": "https://github.com/yourusername/project",
+      "tags": ["Python", "PyTorch", "Docker"]
     }
   ],
   "education": [
     {
-      "institution": "Institution One",
-      "location": "Institution One Location",
-      "url": "https://sample.com",
-      "degrees": [
-        "Master of Science in Computer Science",
-        "Minor in Mathematics"
-      ],
-      "honors": ["Outstanding Student Award", "Dean's List"],
-      "gpa_cumulative": "3.5",
-      "gpa_major": "4.0",
-      "graduation_date": "01/01/2005"
+      "institution": "Toulouse School of Economics",
+      "degree": "M.S. in Statistics & Econometrics",
+      "graduation_date": "2018"
     },
     {
-      "institution": "Institution Two",
-      "location": "Institution Two Location",
-      "url": "https://sample.com",
-      "degrees": ["Bachelor of Science in Physics"],
-      "honors": ["Scholarship Recipient"],
-      "gpa_cumulative": "3.2",
-      "gpa_major": "3.9",
-      "graduation_date": "01/01/2000"
+      "institution": "University of Pavia",
+      "degree": "Echange semester",
+      "graduation_date": "2017"
+    },
+    {
+      "institution": "Humboldt State University",
+      "degree": "Senior year Bachelor in Economics & Statistics",
+      "graduation_date": "2016"
+    },
+    {
+      "institution": "University Paris XI",
+      "degree": "Bachelor in Economics",
+      "graduation_date": "2016"
     }
   ],
   "skills": [
-    {
-      "name": "My First Skill",
-      "proficiency": 100,
-      "proficiency_label": "Proficiency Level"
-    },
-    {
-      "name": "My Second Skill",
-      "proficiency": 80,
-      "proficiency_label": "Proficiency Level"
-    }
-  ],
-  "interests": [
-    {
-      "name": "My First Hobby",
-      "summary": "Short summary about my first Hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=7",
-          "caption": "Image Caption 7"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=8",
-          "caption": "Image Caption 8"
-        }
-      ]
-    },
-    {
-      "name": "My Second Hobby",
-      "summary": "Short summary about my second hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=9",
-          "caption": "Image Caption 9"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=10",
-          "caption": "Image Caption 10"
-        }
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "American Sign Language",
-      "fluency": "Professional Working Proficiency"
-    }
-  ],
-  "references": [
-    {
-      "name": "Person One",
-      "relation": "Previous Boss",
-      "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
-    },
-    {
-      "name": "Person Two",
-      "relation": "Previous Coworker",
-      "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
-    }
+    { "category": "CURRENT_STACK", "items": ["Python", "SQL", "Metaflow", "AWS", "Metabase"] },
+    { "category": "ML_FRAMEWORKS", "items": ["Scikit-learn", "PyTorch", "Tensorflow"] },
+    { "category": "MARKETING_ML", "items": ["Marketing Mix Modeling", "Multi-touch Attribution", "Churn Modeling", "LTV Prediction", "Segmentation"] },
+    { "category": "NOTABLE_LIBRARIES", "items": ["CausalPy", "pymc-marketing", "LibRecommender", "keras-rs", "google-meridian"] },
+    { "category": "DEPLOYMENT_OPS", "items": ["Docker", "CirlceCI"] },
+    { "category": "PREVIOUS_INTERESTS", "items": ["R", "(Py)Spark", "Dataiku", "Metabase", "Content Square"] }
   ]
 }

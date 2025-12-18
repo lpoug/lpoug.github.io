@@ -77,8 +77,7 @@ function initTerminal() {
     if (!input || !history) return;
 
     const commands = {
-        'help': 'Available: about, exp, edu, philosophy, status, view-tech, view-biz, clear',
-        'philosophy': 'Objective: Answer questions people cannot answer themselves.',
+        'help': 'Available: exp, edu, clear',
         'status': `System: STABLE. Session: ACTIVE. Location: ${cachedData.contact.location.toUpperCase()}.`,
         'clear': 'CLEAR'
     };
@@ -100,11 +99,8 @@ function initTerminal() {
                 history.innerHTML += `<div><span class="prompt">guest@portfolio:~$</span> ${cmd}</div>`;
                 history.innerHTML += `<div style="color: var(--text-dim); margin-bottom: 10px;">> ${response}</div>`;
                 
-                if (cmd === 'about') document.querySelector('[onclick*="about"]').click();
                 if (cmd === 'exp') document.querySelector('[onclick*="experience"]').click();
                 if (cmd === 'edu') document.querySelector('[onclick*="education"]').click();
-                if (cmd === 'view-tech') setViewMode('tech');
-                if (cmd === 'view-biz') setViewMode('biz');
             }
             input.value = '';
             const body = document.getElementById('terminal-body');

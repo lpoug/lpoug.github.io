@@ -91,7 +91,7 @@
     { "category": "ML_FRAMEWORKS", "items": ["Scikit-learn", "PyTorch", "Tensorflow"] },
     { "category": "MARKETING_ML", "items": ["Marketing Mix Modeling", "Multi-touch Attribution", "Churn Modeling", "LTV Prediction", "Segmentation"] },
     { "category": "NOTABLE_LIBRARIES", "items": ["CausalPy", "pymc-marketing", "LibRecommender", "keras-rs", "google-meridian"] },
-    { "category": "DEPLOYMENT_OPS", "items": ["Docker", "CirlceCI"] },
+    { "category": "DEPLOYMENT_OPS", "items": ["Docker", "CircleCI"] },
     { "category": "PREVIOUS_INTERESTS", "items": ["R", "(Py)Spark", "Dataiku", "Metabase", "Content Square"] }
   ]
 }

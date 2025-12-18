@@ -1,39 +1,39 @@
 {
-  "name": "Your Name",
-  "label": "Optional Label",
-  "image_path": "img/default-image.png",
+  "name": "Léonard Pouget",
+  "label": "Data Scientist",
+  "image_path": "img/lpo.png",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "",
+    "phone": "",
+    "location": "Paris, France"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
-  "base_url": "127.0.0.1:5500",
+  "summary": "Data Scientist with over 7 years of experience. Currently working at Sézane.",
+  "base_url": "https://lpoug.github.io/",
   "social_links": [
     {
-      "label": "Personal Website",
-      "url": "https://sample.com",
+      "label": "My Website",
+      "url": "https://lpoug.github.io/",
       "svg_path": "img/globe.svg"
     },
     {
-      "label": "First Social",
-      "url": "https://sample.com",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/l%C3%A9onard-pouget-825259108/",
       "svg_path": "img/linkedin.svg"
     },
     {
-      "label": "Second Social",
-      "url": "https://sample.com",
+      "label": "Github",
+      "url": "https://github.com/lpoug",
       "svg_path": "img/github.svg"
     }
   ],
   "work_experience": [
     {
-      "company": "Latest Job",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
+      "company": "Sézane",
+      "position": "Lead Data Scientist",
+      "url": "https://www.sezane.com/",
+      "start_date": "2021",
       "end_date": "Present",
-      "summary": "Short summary about present job and what the position entails",
+      "summary": "Leading Data Science & Analytics initiatives.",
       "highlights": [
         "First Duty of Current Job",
         "Second Duty of Current Job",
@@ -41,14 +41,14 @@
       ]
     },
     {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
+      "company": "Avisia",
+      "position": "Data Scientist",
+      "url": "https://www.avisia.fr/",
+      "start_date": "2018",
+      "end_date": "2021",
+      "summary": "I have been intervening as a data scientist consultant in a variety of topics and analyses such as the definition of scoring models along the customer life cycle (Churn Prediction, Repurchase Engine, Reactivation Score), the construction of both static and interactive reports (R Shiny), and ad hoc studies on omnicanality, customer behavior, and commercial pressure optimization.",
       "highlights": [
-        "First Duty of Previous Job",
+        "Industries I have worked in: Retail, Cosmetic, Luxury Goods Industry",
         "Second Duty of Previous Job",
         "Third Duty of Previous Job"
       ]
@@ -134,27 +134,25 @@
   ],
   "education": [
     {
-      "institution": "Institution One",
-      "location": "Institution One Location",
-      "url": "https://sample.com",
+      "institution": "Toulouse School of Economics",
+      "location": "Toulouse, France",
+      "url": "https://www.tse-fr.eu/fr",
       "degrees": [
-        "Master of Science in Computer Science",
-        "Minor in Mathematics"
+        "Master's Degree I & II in Statistics & Econometrics"
       ],
-      "honors": ["Outstanding Student Award", "Dean's List"],
-      "gpa_cumulative": "3.5",
-      "gpa_major": "4.0",
-      "graduation_date": "01/01/2005"
+      "honors": ["Top of the class 2018"],
+      "gpa_cumulative": "",
+      "gpa_major": "",
+      "graduation_date": "2018"
     },
     {
-      "institution": "Institution Two",
-      "location": "Institution Two Location",
-      "url": "https://sample.com",
-      "degrees": ["Bachelor of Science in Physics"],
-      "honors": ["Scholarship Recipient"],
-      "gpa_cumulative": "3.2",
-      "gpa_major": "3.9",
-      "graduation_date": "01/01/2000"
+      "institution": "University of Pavia",
+      "location": "Pavia, Italy",
+      "url": "https://en.unipv.it/en",
+      "degrees": ["Exchange semester"],
+      "honors": [],
+      "gpa_cumulative": "",
+      "gpa_major": ""
     }
   ],
   "skills": [

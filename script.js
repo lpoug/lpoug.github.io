@@ -46,7 +46,7 @@ function renderExperience() {
     
     log.innerHTML = `
         <div class="view-toggle-container">
-            <span style="opacity: 0.5; font-family: 'JetBrains Mono'; font-size: 0.7rem;">PERSPECTIVE:</span>
+            <span style="opacity: 0.5; font-family: 'JetBrains Mono'; font-size: 0.9rem;">PERSPECTIVE:</span>
             <div class="toggle-group">
                 <button id="btn-tech" class="toggle-btn ${currentViewMode === 'tech' ? 'active' : ''}" onclick="setViewMode('tech')">TECHNICAL</button>
                 <button id="btn-biz" class="toggle-btn ${currentViewMode === 'biz' ? 'active' : ''}" onclick="setViewMode('biz')">BUSINESS</button>

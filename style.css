@@ -107,6 +107,14 @@ body {
     font-weight: 700;
 }
 
+.hero-info h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -2px; /* Tight tracking looks more "designed" */
+    color: var(--text-main);
+}
 .tabs {
     display: flex;
     gap: 10px;

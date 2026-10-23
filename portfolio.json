@@ -18,7 +18,7 @@
     {
       "company": "Sézane",
       "position": "Lead Data Scientist",
-      "start_date": "2021",
+      "start_date": "2022",
       "end_date": "Present",
       "highlights_tech": [
         "Proficiency in SQL (Redshift) on a day-to-day basis for analytics purposes.",
@@ -41,7 +41,7 @@
       "company": "Avisia",
       "position": "Data Scientist",
       "start_date": "2018",
-      "end_date": "2021",
+      "end_date": "2022",
       "highlights_tech": [
         "Developed a speciality in Dataiku. Organized training sessions internally as well as for different clients.",
         "Adapted my professional skills to match the client's environment: Pyspark for data processing, Dataiku for modelisation, R (Shiny) for visualisation."
@@ -78,12 +78,12 @@
     {
       "institution": "Humboldt State University",
       "degree": "Senior year Bachelor in Economics & Statistics",
-      "graduation_date": "2016"
+      "graduation_date": "2014"
     },
     {
       "institution": "University Paris XI",
       "degree": "Bachelor in Economics",
-      "graduation_date": "2016"
+      "graduation_date": "2014"
     }
   ],
   "skills": [
